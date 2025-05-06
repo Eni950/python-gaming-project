@@ -1,5 +1,4 @@
 import os
-import random
 import math
 import pygame
 from os import listdir
@@ -8,7 +7,7 @@ from os.path import isfile, join
 pygame.init()
 pygame.font.init() # Initialize font module
 
-pygame.display.set_caption("Platformer")
+pygame.display.set_caption("Mario Offbrand")
 
 WIDTH, HEIGHT = 1000, 800
 FPS = 60
